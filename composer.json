@@ -1,19 +1,22 @@
 {
-  "name": "msherer/beer-generator",
-  "description": "Generate names for beer for Faker",
-  "homepage": "https://github.com/msherer/beer-generator",
-  "version": "1.0.0",
-  "license": "GNU General Public License v3.0",
-  "authors": [
-      { "name": "Matt Sherer" }
-  ],
-  "require": {
-      "php": ">=7.0.0",
-      "fzaninotto/faker": "~1.4"
-  },
-  "autoload": {
-      "psr-4": {
-        "msherer\\BeerGenerator\\": "src"
+    "name": "msherer/beer-generator",
+    "description": "Generate names for beers with Faker",
+    "type": "library",
+    "license": "GNU General Public License v3.0",
+    "authors": [
+        {
+            "name": "Matt Sherer",
+            "email": "msherer033@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0",
+        "fzaninotto/faker": "~1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "msherer\\BeerGenerator\\": "src"
+        }
     }
-  }
 }
