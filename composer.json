@@ -1,7 +1,8 @@
 {
     "name": "msherer/beer-generator",
     "description": "Generate names for beers with Faker",
-    "type": "library",
+    "homepage": "https://github.com/msherer/beers-generator",
+    "keywords": ["beers-generator", "beersgenerator", "faker", "fixtures", "data"],
     "license": "GNU General Public License v3.0",
     "authors": [
         {
@@ -16,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "msherer\\BeerGenerator\\": "src"
+            "msherer\\BeersGenerator\\": "src"
         }
     }
 }
